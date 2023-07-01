@@ -81,6 +81,11 @@
   align-content: start;
 }
 
+.empresa-titulo a {
+  color: #525252;
+  /* text-decoration: none; */
+}
+
 .empresa-habilidades li {
   font-size: 0.875rem;
   line-height: 1.33;
@@ -88,6 +93,7 @@
   background: #ffffff;
   padding: 5px 10px;
 }
+
 
 @media (max-width: 800px) {
   .experiencia {
