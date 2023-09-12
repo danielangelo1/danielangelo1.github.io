@@ -1,198 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.min.css" />
-    <title>Daniel - Desenvolvedor Front End</title>
-    <meta name="description" content="Desenvolvedor Front End e UX Designer" />
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+<html lang="pt-BR">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.min.css" />
+  <title>Daniel - Desenvolvedor Front End</title>
+  <meta name="description" content="Desenvolvedor Front End e UX Designer" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 
-  <body>
-    <header class="header">
-      <img
-        src="/img/marca-daniel.svg"
-        alt="Daniel"
-        class="logo"
-        width="104"
-        height="38"
-      />
-      <nav>
-        <ul class="header-menu">
-          <li><a href="#experiencia">Experiência</a></li>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <script>
+    document.documentElement.className += " js"
+  </script>
+</head>
 
-    <main class="introducao">
-      <img src="/img/foto.png" alt="Foto de perfil" width="360" height="520" />
-      <div>
-        <h1>
-          Desenvolvedor <br />
-          Front End & <br />
-          UX/UI Designer
-        </h1>
-        <p>Localizado em Minas Gerais</p>
-      </div>
-    </main>
+<body>
+  <header class="header">
+    <img src="/img/marca-daniel.svg" alt="Daniel" class="logo" width="104" height="38" />
+    <nav>
+      <ul class="header-menu js-menu  ">
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="experiencia" aria-label="Experiencia" id="experiencia">
-      <h2 class="subtitulo">Experiência</h2>
-      <div>
-        <p class="experiencia-texto">
-          Desenvolvo pequenos projetos Front End utilizando tecnologias como o
-          <strong>HTML</strong> , <strong>CSS</strong> e
-          <strong>JavaScript</strong>. Melhorando a experiência do usuário com
-          <strong>UX</strong> e <strong>UI Design</strong> do projeto.
+  <main class="introducao js-scroll">
+    <img src="/img/foto.png" alt="Foto de perfil" width="360" height="520" />
+    <div>
+      <h1>
+        Desenvolvedor <br />
+        Front End & <br />
+        UX/UI Designer
+      </h1>
+      <p>Localizado em Minas Gerais</p>
+    </div>
+  </main>
+
+  <section class="experiencia js-scroll" aria-label="Experiencia" id="experiencia">
+    <h2 class="subtitulo">Experiência</h2>
+    <div>
+      <p class="experiencia-texto">
+        Desenvolvo pequenos projetos Front End utilizando tecnologias como o
+        <strong>HTML</strong> , <strong>CSS</strong> e
+        <strong>JavaScript</strong>. Melhorando a experiência do usuário com
+        <strong>UX</strong> e <strong>UI Design</strong> do projeto.
+      </p>
+
+      <h2 class="subtitulo2">Projetos Recentes</h2>
+
+      <div class="empresa">
+        <span class="empresa-ano">AUG - 2023</span>
+        <h3 class="empresa-titulo">
+          <a href="http://" target="_blank">Water Quality Project</a>
+        </h3>
+        <span class="empresa-titulo">Tecnologias</span>
+        <p class="empresa-texto">
+          Site que permite que profissionais ambientais façam marcações sobre
+          a qualidade de uma bacia hidrografica.
         </p>
-
-        <h2 class="subtitulo2">Projetos Recentes</h2>
-
-        <div class="empresa">
-          <span class="empresa-ano">JUL - 2023</span>
-          <h3 class="empresa-titulo">
-            <a href="https://vacay-trips.vercel.app/" target="_blank"
-              >Vacay Trips</a
-            >
-          </h3>
-          <span class="empresa-titulo">Tecnologias</span>
-          <p class="empresa-texto">
-            Sistema web completo de reserva de viagens estilo AirBnB.
-          </p>
-          <ul class="empresa-habilidades">
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>NextJS</li>
-            <li>Tailwind CSS</li>
-            <li>PostgreeSQL</li>
-          </ul>
-        </div>
-
-        <div class="empresa">
-          <span class="empresa-ano">APR - 2023</span>
-          <h3 class="empresa-titulo">
-            <a href="https://semaninha.net" target="_blank">Semaninha</a>
-          </h3>
-          <span class="empresa-titulo">Tecnologias</span>
-          <p class="empresa-texto">
-            Site que gera colagens de acordo com os dados do Last FM.
-          </p>
-          <ul class="empresa-habilidades">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Last FM API</li>
-          </ul>
-        </div>
-
-        <div class="empresa">
-          <span class="empresa-ano">MAR - 2023</span>
-          <h3 class="empresa-titulo">
-            <a href="http://danielangelo1.github.io/bikcraft/" target="_blank"
-              >Bikcraft</a
-            >
-          </h3>
-          <span class="empresa-titulo">Tecnologias</span>
-          <p class="empresa-texto">
-            Projeto desenvolvido em paralelo ao curso de HTML e CSS da Origamid.
-          </p>
-          <ul class="empresa-habilidades">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>UX Design</li>
-            <li>UI Design</li>
-          </ul>
-        </div>
-
-        <div class="empresa">
-          <span class="empresa-ano">Em desenvolvimento</span>
-          <h3 class="empresa-titulo">
-            <a href="http://" target="_blank">Water Quality Project</a>
-          </h3>
-          <span class="empresa-titulo">Tecnologias</span>
-          <p class="empresa-texto">
-            Site que permite que profissionais ambientais façam marcações sobre
-            a qualidade de uma bacia hidrografica.
-          </p>
-          <ul class="empresa-habilidades">
-            <li>JavaScript</li>
-            <li>Google Maps API</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Firabase</li>
-          </ul>
-        </div>
+        <ul class="empresa-habilidades">
+          <li>JavaScript</li>
+          <li>Google Maps API</li>
+          <li>FiraBase Auth</li>
+          <li>Firabase RealTime DB</li>
+        </ul>
       </div>
-    </section>
 
-    <section class="formacao" id="formacao" aria-label="Formação">
-      <div class="formacao-container">
-        <h2 class="subtitulo">Formação</h2>
-        <div>
-          <p class="formacao-texto">
-            Sou um <strong>graduando</strong> do curso de
-            <strong>Sistemas de Informações</strong> . Além disso sempre procuro
-            me manter atualizado com cursos onlines.
-          </p>
-          <ul class="faculdade-lista">
-            <li class="faculdade">
-              <span class="faculdade-tipo">Bacharel</span>
-              <h3 class="faculdade-curso">Sistemas de Informações</h3>
-              <span class="faculdade-nome">UFOP</span>
-            </li>
-          </ul>
+      <div class="empresa">
+        <span class="empresa-ano">JUL - 2023</span>
+        <h3 class="empresa-titulo">
+          <a href="https://vacay-trips.vercel.app/" target="_blank">Vacay Trips</a>
+        </h3>
+        <span class="empresa-titulo">Tecnologias</span>
+        <p class="empresa-texto">
+          Sistema web completo de reserva de viagens estilo AirBnB.
+        </p>
+        <ul class="empresa-habilidades">
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>NextJS</li>
+          <li>Tailwind CSS</li>
+          <li>PostgreeSQL</li>
+          <li>Prisma</li>
+        </ul>
+      </div>
 
-          <div class="formacao-extra">
-            <div class="cursos">
-              <h3>Cursos Intensivos</h3>
-              <ul>
-                <li>UX Design & UI Design <span>56h</span></li>
-                <li>Front End para Inciciantes <span>72h</span></li>
-              </ul>
-            </div>
+      <div class="empresa">
+        <span class="empresa-ano">APR - 2023</span>
+        <h3 class="empresa-titulo">
+          <a href="https://semaninha.net" target="_blank">Semaninha</a>
+        </h3>
+        <span class="empresa-titulo">Tecnologias</span>
+        <p class="empresa-texto">
+          Site que gera colagens de acordo com os dados do Last FM.
+        </p>
+        <ul class="empresa-habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Last FM API</li>
+        </ul>
+      </div>
 
-            <div class="idiomas">
-              <h3>Idiomas</h3>
-              <ul>
-                <li>Inglês <span>/ Avançado</span></li>
-              </ul>
-            </div>
+      <div class="empresa">
+        <span class="empresa-ano">MAR - 2023</span>
+        <h3 class="empresa-titulo">
+          <a href="http://danielangelo1.github.io/bikcraft/" target="_blank">Bikcraft</a>
+        </h3>
+        <span class="empresa-titulo">Tecnologias</span>
+        <p class="empresa-texto">
+          Projeto desenvolvido em paralelo ao curso de HTML e CSS da Origamid.
+        </p>
+        <ul class="empresa-habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>UX Design</li>
+          <li>UI Design</li>
+        </ul>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="formacao js-scroll" id="formacao" aria-label="Formação">
+    <div class="formacao-container">
+      <h2 class="subtitulo">Formação</h2>
+      <div>
+        <p class="formacao-texto">
+          Sou um <strong>graduando</strong> do curso de
+          <strong>Sistemas de Informações</strong> . Além disso sempre procuro
+          me manter atualizado com cursos onlines.
+        </p>
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">Bacharel</span>
+            <h3 class="faculdade-curso">Sistemas de Informações</h3>
+            <span class="faculdade-nome">UFOP</span>
+          </li>
+        </ul>
+
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Cursos Intensivos</h3>
+            <ul>
+              <li>UX Design & UI Design <span>56h</span></li>
+              <li>Front End para Inciciantes <span>72h</span></li>
+            </ul>
+          </div>
+
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Inglês <span>/ Avançado</span></li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer" id="contato">
-      <div class="footer-container">
-        <p class="footer-texto">
-          Estou disponível para novos projetos no momento. Entre em contato
-          comigo e marcamos uma conversa
-        </p>
-        <ul class="footer-contato">
-          <li>danielangelo1234@gmail.com</li>
-          <li>+55 31 98219-3060</li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/daniel%C3%A2ngelo/"
-              target="_blank"
-              >Linkedin</a
-            >
-          </li>
-        </ul>
-        <p class="footer-copy">Daniel Ângelo. Alguns Direitos Reservados.</p>
-      </div>
-    </footer>
-  </body>
+  <footer class="footer js-scroll" id="contato">
+    <div class="footer-container">
+      <p class="footer-texto">
+        Estou disponível para novos projetos no momento. Entre em contato
+        comigo e marcamos uma conversa
+      </p>
+      <ul class="footer-contato">
+        <li>danielangelo1234@gmail.com</li>
+        <li>+55 31 98219-3060</li>
+        <li>
+          <a href="https://www.linkedin.com/in/daniel%C3%A2ngelo/" target="_blank">Linkedin</a>
+        </li>
+      </ul>
+      <p class="footer-copy">Daniel Ângelo. Alguns Direitos Reservados.</p>
+    </div>
+  </footer>
+
+  <script src="./script.min.js"></script>
+</body>
+
 </html>
